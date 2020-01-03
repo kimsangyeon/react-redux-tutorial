@@ -33,8 +33,8 @@ const Todos = ({
   return (
     <div>
       <form onSubmit={onSubmit}>
-        <input />
-        <button type="submit" onChange={onChange}>등록</button>
+        <input value={input} onChange={onChange} />
+        <button type="submit">등록</button>
       </form>
       <div>
         {
